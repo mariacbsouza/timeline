@@ -1,5 +1,8 @@
 :root {
   --white: #ffffff;
+  --snow-white: #f3f9fd;
+
+  --blue: #1183da;
 }
 
 * {

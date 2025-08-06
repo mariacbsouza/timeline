@@ -1,0 +1,13 @@
+.header {
+  height: 3rem;
+  background: var(--blue);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header > h1 {
+  color: var(--snow-white);
+  font-size: 1rem;
+}
