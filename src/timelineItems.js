@@ -97,4 +97,4 @@ const timelineItems = [
   },
 ];
 
-export default timelineItems;
+export { timelineItems };

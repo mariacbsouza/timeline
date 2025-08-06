@@ -1,0 +1,71 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--gray);
+  padding: 4px;
+  background-color: var(--snow-white);
+}
+
+.headerMain {
+  display: flex;
+  flex-direction: column;
+}
+
+.dateRow {
+  display: flex;
+}
+
+.date {
+  display: flex;
+  min-width: 38px;
+  font-size: 0.8rem;
+}
+
+.date > strong {
+  margin-left: 8px;
+}
+
+.dayRow {
+  display: flex;
+  flex-grow: 1;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.dayRow::-webkit-scrollbar {
+  display: none;
+}
+
+.day {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  min-width: 40px;
+  padding: 4px;
+  font-size: 0.8em;
+  line-height: 1.2;
+}
+
+.headerDay:last-child {
+  border-right: none;
+}
+
+.headerNavigation {
+  background-color: var(--blue);
+  color: var(--snow-white);
+  border: none;
+  padding: 2px 8px;
+  cursor: pointer;
+  font-size: 1.2em;
+  border-radius: 5px;
+  margin: 0 5px;
+  transition: background-color 0.3s ease;
+}
+
+.headerNavigation:hover {
+  background-color: var(--dark-blue);
+}
